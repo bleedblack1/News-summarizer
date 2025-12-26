@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+torch_env/
+.env
+
+# Model artifacts (keep locally, ignore in git)
+bart-news-finetuned/
+*.safetensors
+*.bin
+checkpoints/
+
+# Hugging Face cache
+.cache/
